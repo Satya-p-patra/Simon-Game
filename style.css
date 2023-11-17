@@ -3,10 +3,10 @@ body {
 }
 
 .btn {
-    width: 200px;
-    height: 200px;
-    border: 10px solid black;
-    margin: 1rem;
+    width: 300px;
+    height: 250px;
+    border: 2px solid;
+    margin: 1rem 0.5rem;
 }
 
 .btn-container {
@@ -17,22 +17,22 @@ body {
 
 .yellow {
     background-color: #F4CE14;
-    border-radius:  0 0 0 90%;
+    border-radius:  0 0 0 100%;
 }
 
 .green {
     background-color: #86A789;
-    border-radius: 0 0 90% 0;
+    border-radius: 0 0 100% 0;
 }
 
 .blue {
     background-color: #00A9FF;
-    border-radius:  0 90% 0 0;
+    border-radius:  0 100% 0 0;
 }
 
 .red {
     background-color: #F78CA2;
-    border-radius: 90% 0 0 0;
+    border-radius: 100% 0 0 0;
 }
 
 .game-flash {
