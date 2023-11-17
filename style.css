@@ -6,7 +6,7 @@ body {
     width: 200px;
     height: 200px;
     border: 10px solid black;
-    border-radius: 20%;
+    border-radius: 50% 0 0 0 ;
     margin: 1rem;
 }
 
@@ -18,18 +18,22 @@ body {
 
 .yellow {
     background-color: #F4CE14;
+    border-radius:  0 0 0 80%;
 }
 
 .green {
     background-color: #86A789;
+    border-radius: 0 0 80% 0;
 }
 
 .blue {
     background-color: #00A9FF;
+    border-radius:  0 80% 0 0;
 }
 
 .red {
     background-color: #F78CA2;
+    border-radius: 80% 0 0 0;
 }
 
 .game-flash {

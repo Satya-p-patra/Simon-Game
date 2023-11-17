@@ -90,13 +90,26 @@ function checkBtn(indx) {
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function () {
             document.querySelector("body").style.backgroundColor = "white";
-        },);
+        },100);
         setTimeout(function () {
             document.querySelector('body').style.backgroundColor = "red";
+	    },150);
+        setTimeout(function () {
+            document.querySelector('body').style.backgroundColor = "white";
 	    },200);
+        setTimeout(function () {
+            document.querySelector('body').style.backgroundColor = "red";
+	    },250);
         setTimeout(function () {
             document.querySelector('body').style.backgroundColor = "white";
 	    },300);
+        setTimeout(function () {
+            document.querySelector('body').style.backgroundColor = "red";
+	    },350);
+        setTimeout(function () {
+            document.querySelector('body').style.backgroundColor = "white";
+	    },400);
+
 
         reset();
     };
