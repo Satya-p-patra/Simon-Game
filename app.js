@@ -11,12 +11,16 @@ let highScore = document.getElementById('high-score');
 
 
 document.addEventListener("keypress", function () {
-    if (started == false) {
-        console.log("Game is Started..!");
-        started = true;
+    setTimeout( function() {
 
-        levelUp();
-    }
+        if (started == false) {
+            console.log("Game is Started..!");
+            started = true;
+    
+            levelUp();
+        }
+    },500)
+    
 });
 
 let h2 = document.querySelector('h2');
